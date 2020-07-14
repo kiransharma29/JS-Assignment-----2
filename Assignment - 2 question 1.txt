@@ -6,7 +6,7 @@
     clear()   -   Clears the console
     count()  -   Logs the number of times that this particular call to count() has been called
     error()   -   Outputs an error message to the console
-    group()  -  Creates a new inline group in the console. This indents following console messages by an additional level, until console.groupEnd() 		                      is called.
+    group()  -  Creates a new inline group in the console. This indents following console messages by an additional level, until console.groupEnd() is called.
     info()    -   Outputs an informational message to the console
     log()     -   Outputs a message to the console
     table()  -    Displays tabular data as a table
@@ -15,5 +15,5 @@
     trace()    -   Outputs a stack trace to the console
     warn()    -   Outputs a warning message to the console
     groupEnd()  -  Exits the current inline group in the console
-    groupCollapsed() -  Creates a new inline group in the console. However, the new group is created collapsed. The user will need                                    to use the disclosure button to  expand it
+    groupCollapsed() -  Creates a new inline group in the console. However, the new group is created collapsed. The user will need to use the disclosure button to  expand it.
     
