@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Var, let and const
+    </title>
+    <h1> 
+        difference between var, let and const
+    </h1>
+    <h2>
+        '''
+        var is used to declare the variables, and the scope of the declared variables is global i.e,it can be accessed from anywhere.
+        let is also used to declare variables but the variables declared with let will have local scope because these variables are declared inside a block of code.
+        The variables declared with const cannot be modified, if once declared.
+        This is the difference between var, let and const and the examples for var, let and code are written below
+
+        '''
+
+    </h1>
+</head>
+<h3>
+<body>
+    <script type="text/javascript">
+    //var is used to declare the variables, and the scope of the variables is global i.e, it can be accessed from anywhere inside the code
+    var a=30;
+    var b=20;
+    document.write('a'+"+"+'b','=', a+b);
+    document.write("</br>")
+
+    //let is used as a block of code where the variables inside the block will have local scope
+    {
+     let a=10
+     document.write("This is value of 'a' using let"," ", a);
+     document.write("</br>");
+    }
+    document.write("this is the value of 'a' outside let"," ", a);
+    document.write("</br>")
+    //const means constant and the variables declared with const cannot be interpreted or we cannot modify the values once it is assigned
+
+    const name={'student1':'kiran', 'student2':'kethan'};
+    document.write(name['student2']);
+    
+
+    </script>
+    
+</body>
+</h3>
+</html>
